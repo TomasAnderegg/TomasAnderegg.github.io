@@ -13,6 +13,7 @@ a{color:inherit;text-decoration:none}a:hover{color:#D82417}
 .on-red a:hover{color:#111111}
 footer a{cursor:pointer}footer div a{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
 html{scroll-behavior:smooth}
+#top svg{width:min(600px,44vw);height:auto}
 @media (max-width:900px){
 .sec{padding-left:20px!important;padding-right:20px!important;padding-top:88px!important}
 #top{height:auto!important;min-height:100svh;padding-top:0!important}
@@ -20,8 +21,8 @@ footer.sec{padding-top:32px!important}
 .g12{grid-template-columns:1fr!important;row-gap:14px!important}
 .g12>*{grid-column:1/-1!important;justify-self:start!important;text-align:left!important}
 #projects{row-gap:56px!important}
-#top svg{width:300px!important;height:300px!important;justify-self:end!important;align-self:start!important;margin:24px -20px 0 0!important}
-h1{font-size:19.5vw!important;align-self:end!important;margin:0 0 24px!important}
+#top svg{grid-row:1!important;width:min(300px,72vw)!important;height:auto!important;justify-self:end!important;align-self:start!important;margin:24px -20px 0 0!important}
+h1{grid-row:2!important;font-size:16vw!important;align-self:end!important;margin:16px 0 24px!important}
 h2{font-size:17vw!important}
 #about p:first-of-type{font-size:30px!important}
 footer>a{font-size:32vw!important}
@@ -53,7 +54,7 @@ footer div a{word-break:break-all}
 <circle cx="420" cy="350" r="310" stroke="#D82417" stroke-width="26" stroke-dasharray="620 1328" transform="rotate(300 420 350)"></circle>
 <circle cx="420" cy="350" r="360" stroke="#F2F1EC" stroke-width="26" stroke-dasharray="1500 762" transform="rotate(100 420 350)"></circle>
 </svg>
-<h1 style="grid-column: 1 / span 12; grid-row: 1; align-self: end; margin: 0 0 40px; font-size: 176px; line-height: 0.9; font-weight: 800; letter-spacing: -0.06em; position: relative; z-index: 1; padding-bottom: 12px">tomas<br>anderegg.</h1>
+<h1 style="grid-column: 1 / span 12; grid-row: 1; align-self: end; margin: 0 0 40px; font-size: clamp(64px, 10.4vw, 150px); line-height: 0.9; font-weight: 800; letter-spacing: -0.06em; position: relative; z-index: 1; padding-bottom: 12px">tomas<br>anderegg.</h1>
 
 </div>
 
