@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tomas Garate Anderegg — Robotics &amp; Deep Learning</title>
-<meta name="description" content="Portfolio of Tomas Garate Anderegg, MSc Robotics student at EPFL — computer vision, vision-language-action models, reinforcement learning and control.">
+<title>Tomas Garate Anderegg — Embodied AI &amp; Robot Learning</title>
+<meta name="description" content="Portfolio of Tomas Garate Anderegg, MSc Robotics student at EPFL — embodied AI, robot learning, vision-language-action models, imitation learning and sim-to-real.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230000FF'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
@@ -35,6 +35,7 @@ html{scroll-behavior:smooth}
 .sec{padding-left:20px!important;padding-right:20px!important;padding-top:88px!important}
 #top{height:auto!important;min-height:100svh;padding-top:0!important}
 footer.sec{padding-top:32px!important}
+#about{padding-bottom:96px!important}
 .g12{grid-template-columns:1fr!important;row-gap:14px!important}
 .g12>*{grid-column:1/-1!important;justify-self:start!important;text-align:left!important}
 #projects{row-gap:56px!important}
@@ -54,7 +55,7 @@ footer div a{word-break:break-all}
 
 <header class="g12" style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; padding: 32px 0 20px; border-bottom: 2px solid var(--hero-fg); font-size: 14px; line-height: 1.35">
 <a href="#top" style="grid-column: 1 / span 3; font-weight: 700">Tomas Anderegg</a>
-<span style="grid-column: 4 / span 3">Robotics<br>Robot Learning</span>
+<span style="grid-column: 4 / span 3">Embodied AI<br>Robot Learning</span>
 <span style="grid-column: 7 / span 3">EPFL<br>Lausanne, Switzerland</span>
 <nav style="grid-column: 10 / span 3; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 24px">
 <a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a>
@@ -78,16 +79,16 @@ footer div a{word-break:break-all}
 <div class="g12" style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; padding-top: 20px; border-top: 2px solid var(--hero-fg); font-size: 18px; line-height: 1.4">
 <span style="grid-column: 1 / span 3; font-weight: 700">01 Intro</span>
 <p style="grid-column: 4 / span 4; margin: 0">I build machines that see, reason and act like humans</p>
-<p style="grid-column: 10 / span 3; margin: 0">MSc Robotics, EPFL.
+<p style="grid-column: 10 / span 3; margin: 0">MSc Robotics, EPFL.</p>
 </div>
 </section>
 
 <section class="g12 sec" style="padding: 120px 64px 0; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px">
 <div class="g12" style="grid-column: 1 / span 12; border-top: 2px solid var(--ink); padding-top: 20px; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px">
 <span style="grid-column: 1 / span 3; font-size: 18px; font-weight: 700">02 Disciplines</span>
-<div style="grid-column: 4 / span 3; display: flex; flex-direction: column; gap: 6px; font-size: 28px; line-height: 1.15; font-weight: 500; letter-spacing: -0.02em"><span>Autonomous systems</span><span>Computer vision</span><span>Control Theory</span></div>
-<div style="grid-column: 7 / span 3; display: flex; flex-direction: column; gap: 6px; font-size: 28px; line-height: 1.15; font-weight: 500; letter-spacing: -0.02em"><span>Deep Learning</span><span>Graph neural networks</span><span>NLP</span></div>
-<div style="grid-column: 10 / span 3; display: flex; flex-direction: column; gap: 6px; font-size: 28px; line-height: 1.15; font-weight: 500; letter-spacing: -0.02em"><span>Reinforcement learning</span><span>Robot Learning</span><span>Vision-language-action</span></div>
+<div style="grid-column: 4 / span 3; display: flex; flex-direction: column; gap: 6px; font-size: 28px; line-height: 1.15; font-weight: 500; letter-spacing: -0.02em"><span>Robot learning</span><span>Vision-language-action</span><span>Imitation learning</span></div>
+<div style="grid-column: 7 / span 3; display: flex; flex-direction: column; gap: 6px; font-size: 28px; line-height: 1.15; font-weight: 500; letter-spacing: -0.02em"><span>Sim-to-real</span><span>Reinforcement learning</span><span>Control theory</span></div>
+<div style="grid-column: 10 / span 3; display: flex; flex-direction: column; gap: 6px; font-size: 28px; line-height: 1.15; font-weight: 500; letter-spacing: -0.02em"><span>Computer vision</span><span>Autonomous systems</span><span>Deep learning</span></div>
 </div>
 </section>
 
@@ -124,19 +125,38 @@ footer div a{word-break:break-all}
 <a href="https://github.com/TomasAnderegg" style="grid-column: 11 / span 2; font-size: 18px; font-weight: 500; justify-self: end">GitHub →</a>
 </div>
 
-<article style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
-<svg width="100%" height="310" viewBox="0 0 420 420" style="background: var(--tile); display: block" aria-hidden="true">
-<g style="fill:var(--ink)">
-<rect x="40" y="260" width="28" height="120"></rect><rect x="84" y="200" width="28" height="180"></rect><rect x="128" y="290" width="28" height="90"></rect><rect x="172" y="160" width="28" height="220"></rect><rect x="216" y="230" width="28" height="150"></rect><rect x="304" y="180" width="28" height="200"></rect><rect x="348" y="270" width="28" height="110"></rect>
-</g>
-<rect x="260" y="60" width="28" height="320" style="fill:var(--c1)"></rect>
+<a href="https://github.com/TomasAnderegg/Robot_sorting_VLA" style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
+<svg width="100%" height="310" viewBox="0 0 420 420" fill="none" style="background: var(--tile); display: block" aria-hidden="true">
+<rect x="285" y="290" width="50" height="50" style="fill:var(--c1)"></rect>
+<rect x="44" y="28" width="76" height="20" style="fill:var(--ink)"></rect>
+<path d="M82 48V78L196 150L310 196" style="stroke:var(--ink)" stroke-width="24"></path>
+<g style="fill:var(--ink)"><circle cx="82" cy="78" r="28"></circle><circle cx="196" cy="150" r="20"></circle></g>
+<path d="M288 200H332M293 200V246M327 200V246" style="stroke:var(--ink)" stroke-width="10"></path>
+<circle cx="310" cy="232" r="10" style="fill:var(--c1)"></circle>
+<path d="M310 252V284" style="stroke:var(--c1)" stroke-width="5" stroke-dasharray="7 7"></path>
+<path d="M35 290H385V390H35ZM35 340H385M85 290V390M135 290V390M185 290V390M235 290V390M285 290V390M335 290V390" style="stroke:var(--ink)" stroke-width="6"></path>
+<g style="fill:var(--ink)"><circle cx="60" cy="315" r="12"></circle><circle cx="60" cy="365" r="12"></circle><circle cx="110" cy="315" r="12"></circle><circle cx="160" cy="365" r="12"></circle><circle cx="210" cy="315" r="12"></circle><circle cx="210" cy="365" r="12"></circle><circle cx="260" cy="365" r="12"></circle><circle cx="360" cy="315" r="12"></circle><circle cx="360" cy="365" r="12"></circle></g>
 </svg>
-<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>01</span><span>Apr. – June 2026</span></div>
-<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Improving regional knowledge in small language models</h3>
-<span style="font-size: 14px; font-weight: 500">Multilingual reasoning via post-training</span>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Small language models show strong cultural and linguistic distribution shifts on multilingual reasoning benchmarks, where base models underperform on regional knowledge and non-English languages.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Curated 108k deduplicated MCQs from INCLUDE, M3Exam, MMMLU and Global-MMLU, then fine-tuned Qwen3-1.7B via LoRA SFT followed by GRPO with verifiable rewards.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Improved validation Pass@1 from 41.6% to 65.9% (+24.3 pts), with the largest gains on Hindi and Chinese, and contributed the expert to a TIES-merged multi-domain model (Math, General Knowledge, Safety and Multilingual Reasoning).</p>
+<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>01</span><span>Oct. 2026 – Present</span></div>
+<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Robotic medication sorting with a VLA</h3>
+<span style="font-size: 14px; font-weight: 500">VLA post-training &amp; sim-to-real</span>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Nurses can mix up similar-looking pills when filling weekly pill organizers by hand.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Recorded teleoperated demonstrations on an SO-101 arm (leader arm + wrist camera), fine-tuned SmolVLA with Hugging Face LeRobot, then collected DAgger correction episodes on the real robot. Built a MuJoCo replica of the arm and pill box to evaluate the policy and generate extra training data, plus a YOLO pill detector and an OCR step that turns a prescription into the robot's instruction.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Deployed at home: the robot reads a prescription and sorts the pills into the correct compartments with over 80% success. Released the MuJoCo simulation for further testing, and cut training time 5&times; by fixing a data-loading bottleneck.</p>
+</a>
+
+<article style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
+<svg width="100%" height="310" viewBox="0 0 420 420" fill="none" style="background: var(--tile); display: block" aria-hidden="true">
+<circle cx="160" cy="170" r="110" style="fill:var(--ink)"></circle>
+<rect x="208" y="158" width="164" height="164" style="stroke:var(--ink)" stroke-width="16"></rect>
+<path d="M70 380L190 210L310 380Z" style="fill:var(--c1)"></path>
+</svg>
+<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>02</span><span>Feb. – June 2026</span></div>
+<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Enhancing SmolVLA with multimodal robustness</h3>
+<span style="font-size: 14px; font-weight: 500">Multimodal vision-language-action model</span>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> VLA policies for robotic manipulation typically rely on a single visual (RGB) encoder and degrade sharply under sensor noise or missing modalities.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Replaced SmolVLA's SigLIP encoder with a 4M-21 (any-to-any model) multimodal encoder and trained with a modality-dropout curriculum on the LIBERO benchmark.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Traced the policy's transfer failure, through a top-down failure analysis and t-SNE, to a latent-scale mismatch between the multimodal embeddings and the action expert; redesigning the embedding-space training loss to align them.</p>
 </article>
 
 <article style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
@@ -147,7 +167,7 @@ footer div a{word-break:break-all}
 <path d="M150 360C160 300 190 250 205 200" style="stroke:var(--c1)" stroke-width="6"></path>
 <circle cx="150" cy="360" r="22" style="fill:var(--c1)"></circle>
 </svg>
-<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>02</span><span>Feb. – June 2026</span></div>
+<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>03</span><span>Feb. – June 2026</span></div>
 <h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">CHAR: deep learning for autonomous vehicles</h3>
 <span style="font-size: 14px; font-weight: 500">End-to-end planner for autonomous driving</span>
 <p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> End-to-end trajectory predictors on nuPlan often suffer from a persistent sim-to-real visual gap and causal confusion when relying on raw multi-frame visual inputs.</p>
@@ -155,18 +175,58 @@ footer div a{word-break:break-all}
 <p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Reduced validation ADE from 1.76 to 1.42, demonstrating strong sim-to-real generalization despite a data imbalance, achieving an excellent grade.</p>
 </article>
 
-<article style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
+<a href="https://github.com/TomasAnderegg/Model-Predictive-Control" style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
 <svg width="100%" height="310" viewBox="0 0 420 420" fill="none" style="background: var(--tile); display: block" aria-hidden="true">
-<circle cx="160" cy="170" r="110" style="fill:var(--ink)"></circle>
-<rect x="208" y="158" width="164" height="164" style="stroke:var(--ink)" stroke-width="16"></rect>
-<path d="M70 380L190 210L310 380Z" style="fill:var(--c1)"></path>
+<g style="stroke:var(--ink)" stroke-width="18">
+<path d="M0 340A80 80 0 0 1 80 420"></path>
+<path d="M0 276A144 144 0 0 1 144 420"></path>
+<path d="M0 212A208 208 0 0 1 208 420"></path>
+<path d="M0 148A272 272 0 0 1 272 420"></path>
+<path d="M0 84A336 336 0 0 1 336 420"></path>
+<path d="M0 20A400 400 0 0 1 400 420"></path>
+</g>
+<circle cx="170" cy="250" r="26" style="fill:var(--c1)"></circle>
 </svg>
-<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>03</span><span>Feb. – June 2026</span></div>
-<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Enhancing SmolVLA with multimodal robustness</h3>
-<span style="font-size: 14px; font-weight: 500">Multimodal vision-language-action model</span>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> VLA policies for robotic manipulation typically rely on a single visual (RGB) encoder and degrade sharply under sensor noise or missing modalities.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Replaced SmolVLA's SigLIP encoder with a 4M-21 (any-to-any model) multimodal encoder and trained with a modality-dropout curriculum on the LIBERO benchmark.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Traced the policy's transfer failure, through a top-down failure analysis and t-SNE, to a latent-scale mismatch between the multimodal embeddings and the action expert; redesigning the embedding-space training loss to align them.</p>
+<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>04</span><span>Sept. – Dec. 2024</span></div>
+<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Autonomous highway driving simulation</h3>
+<span style="font-size: 14px; font-weight: 500">Model predictive control (MPC)</span>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Highway driving requires controllers that remain robust to model mismatch while handling lane keeping, adaptive cruise control and collision avoidance simultaneously.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Designed linear and nonlinear MPC controllers, then extended them to tube MPC with offset-free tracking for added robustness.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Achieved the highest grade in the course for tracking accuracy and robustness under disturbances.</p>
+</a>
+
+<a href="https://github.com/TomasAnderegg/Mobile-Robotic" style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
+<svg width="100%" height="310" viewBox="0 0 420 420" fill="none" style="background: var(--tile); display: block" aria-hidden="true">
+<path d="M40 40H380M40 110H380M40 180H380M40 250H380M40 320H380M40 380H380M40 40V380M110 40V380M180 40V380M250 40V380M320 40V380M380 40V380" style="stroke:var(--ink)" stroke-width="1"></path>
+<rect x="180" y="110" width="70" height="140" style="fill:var(--ink)"></rect>
+<rect x="320" y="40" width="60" height="70" style="fill:var(--ink)"></rect>
+<rect x="40" y="250" width="70" height="70" style="fill:var(--ink)"></rect>
+<path d="M75 355H145V75H285V215H350V355" style="stroke:var(--c1)" stroke-width="12" stroke-linejoin="miter"></path>
+<rect x="61" y="341" width="28" height="28" style="fill:var(--ink)"></rect>
+<circle cx="350" cy="355" r="16" style="fill:var(--c1)"></circle>
+</svg>
+<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>05</span><span>Sept. – Dec. 2024</span></div>
+<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Navigation system for Thymio robot</h3>
+<span style="font-size: 14px; font-weight: 500">Autonomous mobile robotics</span>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Reliable navigation in dynamic environments requires combining global path planning with reactive local obstacle avoidance and fusing sensor information.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Built the full pipeline: overhead-camera vision (perspective correction, HSV segmentation, robot pose from two markers), A* planning on an 8-connected grid with waypoint simplification, and a proportional heading controller. An Extended Kalman Filter fuses vision and wheel odometry to keep tracking when the camera is blocked, while proximity sensors drive local obstacle avoidance and the accelerometer detects kidnapping.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Enabled reliable, collision-free navigation across dynamic test environments.</p>
+</a>
+
+
+<article style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
+<svg width="100%" height="310" viewBox="0 0 420 420" style="background: var(--tile); display: block" aria-hidden="true">
+<g style="fill:var(--ink)">
+<rect x="40" y="260" width="28" height="120"></rect><rect x="84" y="200" width="28" height="180"></rect><rect x="128" y="290" width="28" height="90"></rect><rect x="172" y="160" width="28" height="220"></rect><rect x="216" y="230" width="28" height="150"></rect><rect x="304" y="180" width="28" height="200"></rect><rect x="348" y="270" width="28" height="110"></rect>
+</g>
+<rect x="260" y="60" width="28" height="320" style="fill:var(--c1)"></rect>
+</svg>
+<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>06</span><span>Apr. – June 2026</span></div>
+<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Improving regional knowledge in small language models</h3>
+<span style="font-size: 14px; font-weight: 500">Multilingual reasoning via post-training</span>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Small language models show strong cultural and linguistic distribution shifts on multilingual reasoning benchmarks, where base models underperform on regional knowledge and non-English languages.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Curated 108k deduplicated MCQs from INCLUDE, M3Exam, MMMLU and Global-MMLU, then fine-tuned Qwen3-1.7B via LoRA SFT followed by GRPO with verifiable rewards.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Improved validation Pass@1 from 41.6% to 65.9% (+24.3 pts), with the largest gains on Hindi and Chinese, and contributed the expert to a TIES-merged multi-domain model (Math, General Knowledge, Safety and Multilingual Reasoning).</p>
 </article>
 
 <a href="https://github.com/TomasAnderegg/Semester-Project-CYD" style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
@@ -180,7 +240,7 @@ footer div a{word-break:break-all}
 </g>
 <circle cx="285" cy="210" r="48" style="fill:var(--c1)"></circle>
 </svg>
-<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>04</span><span>Sept. 2025 – Jan. 2026</span></div>
+<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>07</span><span>Sept. 2025 – Jan. 2026</span></div>
 <h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Disruptive technology detection (CYD armasuisse)</h3>
 <span style="font-size: 14px; font-weight: 500">Graph neural networks &amp; forecasting</span>
 <p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Identifying emerging disruptive technologies and high-potential companies from noisy startup data is critical for national security technology monitoring.</p>
@@ -205,74 +265,16 @@ footer div a{word-break:break-all}
 <rect x="220" y="220" width="70" height="70" style="fill:var(--c1)"></rect>
 <rect x="206" y="206" width="98" height="98" style="stroke:var(--c1)" stroke-width="4"></rect>
 </svg>
-<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>05</span><span>Jan. – June 2025</span></div>
+<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>08</span><span>Jan. – June 2025</span></div>
 <h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Chocolate classification using deep learning</h3>
 <span style="font-size: 14px; font-weight: 500">Computer vision: object detection</span>
 <p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Multi-class object detection on visually similar items requires a lightweight model robust enough for real-time classification.</p>
 <p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Designed and trained a simplified ResNet-18 architecture for 13-class chocolate detection.</p>
 <p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Achieved 97% classification accuracy on the test dataset, obtaining the highest grade and a top-3 ranking.</p>
 </a>
-
-<a href="https://github.com/TomasAnderegg/SentinAI" style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
-<svg width="100%" height="310" viewBox="0 0 420 420" style="background: var(--tile); display: block" aria-hidden="true">
-<g style="fill:var(--ink)">
-<rect x="40" y="60" width="300" height="28"></rect>
-<rect x="40" y="106" width="180" height="28"></rect>
-<rect x="40" y="152" width="340" height="28"></rect>
-<rect x="40" y="244" width="240" height="28"></rect>
-<rect x="40" y="290" width="120" height="28" opacity="0.3"></rect>
-<rect x="40" y="336" width="210" height="28" opacity="0.3"></rect>
-</g>
-<rect x="40" y="198" width="100" height="28" style="fill:var(--c1)"></rect>
-</svg>
-<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>06</span><span>Jan. – June 2025</span></div>
-<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Hate speech detection (HateXplain dataset)</h3>
-<span style="font-size: 14px; font-weight: 500">Explainable NLP model</span>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Hate speech classifiers often lack interpretability and fairness across demographic groups, limiting trust in their predictions.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Fine-tuned a BERT-based model with multi-task learning, strategic masking and contrastive rationale learning.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Improved interpretability and fairness in classification, earning the course's best project award with the highest grade.</p>
-</a>
-
-<a href="https://github.com/TomasAnderegg/Model-Predictive-Control" style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
-<svg width="100%" height="310" viewBox="0 0 420 420" fill="none" style="background: var(--tile); display: block" aria-hidden="true">
-<g style="stroke:var(--ink)" stroke-width="18">
-<path d="M0 340A80 80 0 0 1 80 420"></path>
-<path d="M0 276A144 144 0 0 1 144 420"></path>
-<path d="M0 212A208 208 0 0 1 208 420"></path>
-<path d="M0 148A272 272 0 0 1 272 420"></path>
-<path d="M0 84A336 336 0 0 1 336 420"></path>
-<path d="M0 20A400 400 0 0 1 400 420"></path>
-</g>
-<circle cx="170" cy="250" r="26" style="fill:var(--c1)"></circle>
-</svg>
-<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>07</span><span>Sept. – Dec. 2024</span></div>
-<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Autonomous highway driving simulation</h3>
-<span style="font-size: 14px; font-weight: 500">Model predictive control (MPC)</span>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Highway driving requires controllers that remain robust to model mismatch while handling lane keeping, adaptive cruise control and collision avoidance simultaneously.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Designed linear and nonlinear MPC controllers, then extended them to tube MPC with offset-free tracking for added robustness.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Achieved the highest grade in the course for tracking accuracy and robustness under disturbances.</p>
-</a>
-
-<a href="https://github.com/TomasAnderegg/Mobile-Robotic" style="grid-column: span 3; display: flex; flex-direction: column; gap: 14px">
-<svg width="100%" height="310" viewBox="0 0 420 420" fill="none" style="background: var(--tile); display: block" aria-hidden="true">
-<path d="M40 40H380M40 110H380M40 180H380M40 250H380M40 320H380M40 380H380M40 40V380M110 40V380M180 40V380M250 40V380M320 40V380M380 40V380" style="stroke:var(--ink)" stroke-width="1"></path>
-<rect x="180" y="110" width="70" height="140" style="fill:var(--ink)"></rect>
-<rect x="320" y="40" width="60" height="70" style="fill:var(--ink)"></rect>
-<rect x="40" y="250" width="70" height="70" style="fill:var(--ink)"></rect>
-<path d="M75 355H145V75H285V215H350V355" style="stroke:var(--c1)" stroke-width="12" stroke-linejoin="miter"></path>
-<rect x="61" y="341" width="28" height="28" style="fill:var(--ink)"></rect>
-<circle cx="350" cy="355" r="16" style="fill:var(--c1)"></circle>
-</svg>
-<div style="display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 12px; font-size: 14px; font-weight: 500"><span>08</span><span>Sept. – Dec. 2024</span></div>
-<h3 style="margin: 0; font-size: 26px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em">Navigation system for Thymio robot</h3>
-<span style="font-size: 14px; font-weight: 500">Autonomous mobile robotics</span>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Context</strong> Reliable navigation in dynamic environments requires combining global path planning with reactive local obstacle avoidance and fusing sensor information.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Action</strong> Built the full pipeline: overhead-camera vision (perspective correction, HSV segmentation, robot pose from two markers), A* planning on an 8-connected grid with waypoint simplification, and a proportional heading controller. An Extended Kalman Filter fuses vision and wheel odometry to keep tracking when the camera is blocked, while proximity sensors drive local obstacle avoidance and the accelerometer detects kidnapping.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.45"><strong>Result</strong> Enabled reliable, collision-free navigation across dynamic test environments.</p>
-</a>
 </section>
 
-<section class="sec" id="about" style="padding: 160px 64px 0">
+<section class="sec" id="about" style="padding: 160px 64px 160px">
 <div class="g12" style="border-top: 2px solid var(--ink); padding-top: 20px; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; row-gap: 40px">
 <span style="grid-column: 1 / span 3; font-size: 18px; font-weight: 700">05 About</span>
 <p style="grid-column: 4 / span 9; margin: 0; font-size: 48px; line-height: 1.08; font-weight: 700; letter-spacing: -0.035em">I'm Tomas, a Swiss Robotics MSc student at EPFL driven by the challenge of turning human behaviours into reliable robotic capabilities. My experience taught me to stay curious, think independently and ask questions. I aim to build safe, real-world AI systems and become an engineer people can count on.</p>
